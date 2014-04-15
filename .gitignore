@@ -109,11 +109,13 @@ echo Rigna: Ahh welcome %name%.
 ping localhost -n 2.5 >nul
 echo Rigna: So who are you?
 ping loclahost -n 1 >nul
-
+color 0a
 echo 1) Are you an elf?
 ping loclahost -n 1 >nul
+color 0b
 echo 2) Are you a human?
 ping loclahost -n 1 >nul
+color 04
 echo 3) Are you a dwarf?
 
 if %number% == 1 goto elf
